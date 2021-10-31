@@ -1,55 +1,67 @@
-import { StyleSheet }  from 'react-native';
+import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
-    container: {
+
+    container:{
         flex: 1,
         backgroundColor: '#fff'
     },
-    title: {
-        // backgroundColor: '#e0464e',
+    title:{
+        backgroundColor: '#1cb2b1',
         textAlign: 'center', 
         fontWeight: 'bold',
-        fontSize: 28,
-        margin: 30,
-        // color: '#fff',
+        fontSize: 25,
+        padding: 15,
+        color: '#fff'
     },
-
     img:{
-        width: 100,
-        height: 100,
+        width: 180, 
+        height: 180, 
+        marginLeft: 'auto', 
+        marginRight: 'auto', 
+        marginTop: 30, 
+        marginBottom: 35
     },
     input:{
-        height: 65,
+        height: 55,
         borderWidth: 2,
-        borderColor: '#e0464e',
+        borderColor: '#1cb2b1',
         borderRadius: 3,
         margin: 10,
-        fontSize: 20,
-        padding: 20,
-        marginVertical: 12,
-    }, 
+        fontSize: 16,
+        padding: 18,
+        marginVertical: 8,
+        color: '#000',
+    },
     btn:{
         marginHorizontal: 10, 
         marginVertical: 5   
-    }, 
-    textoBtn:{
-        marginVertical:40,
-        backgroundColor: '#e0464e',
-        fontSize: 25, 
+    },
+    textBtn:{
+        marginVertical:30,
+        backgroundColor: '#1cb2b1a3',
+        fontSize: 20, 
         textAlign: 'center',
-        padding: 15, 
+        padding: 12, 
         color: '#fff',
         borderRadius: 3,
         borderWidth: 3,
-        borderColor: '#bf3e45',
+        borderColor: '#1cb2b1',
+    },
+    classResultado:{
+        fontSize: 22,
+        textAlign: 'center',
+        marginHorizontal: 50,
+        color: '#c92a2a',
+        borderBottomColor: '#c92a2a',
+        borderBottomWidth: 2,
     },
     resultado:{
-        paddingHorizontal:10,
-        fontSize: 22,
-        fontWeight: 'bold', 
-        textAlign: 'center',
+        marginHorizontal: 10,
+        marginVertical: 20,
+        fontSize: 16,
     }
-
 })
+
 
 export { styles };
