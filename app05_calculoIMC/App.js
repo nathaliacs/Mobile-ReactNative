@@ -50,8 +50,6 @@ class App extends Component {
           <Image 
             source = {{ uri: img }}
             style = { styles.img}  
-            // style={{ width: 100, height: 100 }}
-
           />
 
 
